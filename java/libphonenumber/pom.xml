@@ -3,14 +3,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.googlecode.libphonenumber</groupId>
   <artifactId>libphonenumber</artifactId>
-  <version>7.0.10-SNAPSHOT</version>
+  <version>7.1.2-SNAPSHOT</version>
   <packaging>jar</packaging>
   <url>https://github.com/googlei18n/libphonenumber/</url>
 
   <parent>
     <groupId>com.googlecode.libphonenumber</groupId>
     <artifactId>libphonenumber-parent</artifactId>
-    <version>7.0.10-SNAPSHOT</version>
+    <version>7.1.2-SNAPSHOT</version>
   </parent>
 
   <build>
@@ -28,6 +28,22 @@
         <targetPath>com/google/i18n/phonenumbers/data</targetPath>
       </testResource>
     </testResources>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <excludes>
+            <exclude>**/SingleFileMetadataSourceImpl.class</exclude>
+            <exclude>**/SingleFileMetadataSourceImpl.java</exclude>
+            <exclude>**/SingleFileMetadataSourceImplTest.class</exclude>
+            <exclude>**/SingleFileMetadataSourceImplTest.java</exclude>
+            <exclude>**/SingleFilePhoneNumberMetadataProto</exclude>
+            <exclude>**/SingleFilePhoneNumberMetadataProtoForTesting</exclude>
+          </excludes>
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
 
 </project>

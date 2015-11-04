@@ -1,3 +1,44 @@
+Oct 29, 2015: libphonenumber-7.1.1
+Metadata changes:
+ - Updated phone metadata for region code(s):
+   AT, BB, BR, GW, ID, MD, OM, SO, TT
+ - Updated short number metadata for region code(s): BB, NO
+ - New geocoding data for country calling code(s): 968 (en)
+ - Updated geocoding data for country calling code(s): 245 (en, pt)
+ - Updated carrier data for country calling code(s):
+   62 (en), 245 (en), 252 (en), 373 (en), 968 (en), 1246 (en)
+
+Oct 08, 2015: libphonenumber-7.1.0
+API changes:
+ - New MetadataSource implementation that reads from a single metadata file with
+   all regions' phone number metadata.
+Metadata changes:
+ - Updated phone metadata for region code(s): BR, BS, HT, IR, KW, MC, PA, VU
+ - Updated carrier data for country calling code(s):
+   98 (en), 678 (en), 880 (en)
+
+Sep 16, 2015: libphonenumber-7.0.11
+Metadata changes:
+ - Updated phone metadata for region code(s):
+   IN, KE, LR, MM, MR, NA, NE, PT, RO, SO, TZ, US
+ - New short number metadata for region code(s): CF, CG, ER, KP, NE, SO
+ - Updated short number metadata for region code(s): CD, NO, PT
+ - New geocoding data for country calling code(s): 1854 (en)
+ - Updated geocoding data for country calling code(s): 264 (en)
+ - Updated carrier data for country calling code(s):
+   40 (en), 91 (en), 95 (en), 227 (en), 231 (en), 252 (en), 254 (en), 255 (en),
+   509 (en)
+
+Aug 31, 2015: libphonenumber-7.0.10
+Metadata changes:
+ - Updated phone metadata for region code(s):
+   AU, BY, CR, DZ, EH, ES, HK, HT, IN, JO, MN, MU, ST, TD, TT, ZW
+ - Updated short number metadata for region code(s): HK, KR
+ - Updated geocoding data for country calling code(s): 263 (en)
+ - New carrier data for country calling code(s): 509 (en), 976 (en)
+ - Updated carrier data for country calling code(s):
+   41 (en), 61 (en), 91 (en), 230 (en), 235 (en), 239 (en)
+
 Aug 03, 2015: libphonenumber-7.0.9
 Metadata changes:
  - Updated phone metadata for region code(s): AR, IN, MX, PL, SZ, YT, ZW
